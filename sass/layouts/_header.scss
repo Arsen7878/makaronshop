@@ -1,0 +1,62 @@
+.header {
+}
+.gamburger-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $headerBg;
+}
+
+.gamburger-menu__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 18px;
+  cursor: pointer;
+}
+
+.gamburger-menu__button span {
+  position: relative;
+  width: 20px;
+  border: 1px solid $nav-color;
+  background-color: $nav-color;
+}
+
+.gamburger-menu__button span::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 20px;
+  top: -6px;
+  left: -1px;
+  border: 1px solid $nav-color;
+  background-color: $nav-color;
+}
+
+.gamburger-menu__button span::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 12px;
+  bottom: -6px;
+  left: -1px;
+  border: 1px solid $nav-color;
+  background-color: $nav-color;
+}
+
+.cart-link {
+  display: block;
+  padding: 18px;
+}
+
+.logo {
+  position: relative;
+  display: flex;
+}
+
+.logo-header {
+  position: absolute;
+}
+.logo-butterfly {
+  position: absolute;
+}
